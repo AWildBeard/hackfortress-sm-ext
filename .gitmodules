@@ -1,0 +1,4 @@
+[submodule "sourcemod"]
+	path = sourcemod
+	url = github:alliedmodders/sourcemod
+	commit = b2b29cb3

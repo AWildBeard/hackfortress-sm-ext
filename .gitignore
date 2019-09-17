@@ -1,0 +1,6 @@
+*
+!**/*.h
+!**/*.cpp
+!.gitmodules
+!.gitignore
+!Makefile
