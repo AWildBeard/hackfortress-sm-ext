@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package exchanger;
+
+service Exchanger {
+    rpc GetPoints(UserID) returns (Points) {}
+}
+
+message UserID {
+    string id = 1;
+}
+
+message Points {
+    int32 points = 1;
+}

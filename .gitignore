@@ -1,6 +1,11 @@
 *
+
 !**/*.h
 !**/*.cpp
+!**/*.proto
+!*/
 !.gitmodules
 !.gitignore
 !Makefile
+
+*.pb.h
